@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.white {
+    color: white;
+}
+
+aside {
+    width: 250px;
+    height: calc(100vh - 100px);
+    background-color: black;
+    float: left;
+}
+
+header {
+    width: calc(100% - 250px);
+    height: 90px;
+    background-color: yellow;
+    float: left;
+}
+
+main {
+    width: calc(100% - 250px);
+    height: calc(100vh - 90px);
+    background-color: blue;
+    float: left;
+}
+
+.player {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    float: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
