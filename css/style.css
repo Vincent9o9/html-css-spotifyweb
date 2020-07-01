@@ -14,6 +14,10 @@
     color: lightgray;
 }
 
+.white {
+    color: white
+}
+
 aside {
     width: 200px;
     height: calc(100vh - 100px);
@@ -34,7 +38,7 @@ header {
 
 main {
     width: calc(100% - 200px);
-    height: calc(100vh - 90px);
+    height: calc(100vh - 190px);
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     float: left;
     overflow-y: auto;
@@ -137,6 +141,30 @@ li a {
     color: lightgray;
 }
 
+.nav-b a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.txt-abm h2 {
+    margin: 25px;
+    color: white;
+}
+
+.abm-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.img-abm img {
+    height: 200px;
+    width: auto;
+    margin-left: 25px;
+}
+
 
 
 
@@ -159,7 +187,7 @@ li a {
 
     main {
         width: calc(100% - 70px);
-        height: calc(100vh - 90px);
+        height: calc(100vh - 190px);
     }
 
     .img-as img {
