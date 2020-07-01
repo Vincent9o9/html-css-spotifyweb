@@ -10,12 +10,9 @@
     clear: both;
 }
 
-
 .lt-gry {
     color: lightgray;
 }
-
-
 
 aside {
     width: 200px;
@@ -31,22 +28,22 @@ aside {
 header {
     width: calc(100% - 200px);
     height: 90px;
-    background-color: yellow;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     float: left;
 }
 
 main {
     width: calc(100% - 200px);
     height: calc(100vh - 90px);
-    background-color: blue;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     float: left;
-    overflow-y: auto;:
+    overflow-y: auto;
 }
 
 .player {
     height: 100px;
     width: 100%;
-    background-color: red;
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -62,15 +59,115 @@ main {
     height: 50px;
 }
 
+.item-2 .asd-fa {
+    margin-right: 5px;
+}
+
+.pl-list {
+    overflow-y: auto;
+}
+
+.pl-lst .asd-fa {
+    margin-right: 5px;
+}
+
+.pl-lst .asd-fa {
+    padding: 5px;
+    background-color: lightgray;
+    color: black;
+}
+
+.gw-d {
+    flex-grow: 1
+}
+
+.btm-bdr {
+    border-bottom: 1px solid lightgray;
+}
+
+.ad-btm .fa {
+    margin-right: 5px;
+}
+
+aside .assd-fa,.asd-p:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .fa {
     font-size: 30px;
 }
 
-aside i,p:hover {
-    color: white;
-    cursor: pointer;
-}
 .fx {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+}
+
+/* HEADER */
+
+.btg-upgrade {
+    float: right;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background-image:linear-gradient(to top, #09203f 0%, #537895 100%);
+
+}
+
+/* NAVBAR */
+
+.nav-b ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: lightgray;
+}
+/* MAIN */
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 768px) {
+    aside {
+        width: 70px;
+    }
+
+    header {
+        width: calc(100% - 70px);
+        height: 90px;
+    }
+
+    main {
+        width: calc(100% - 70px);
+        height: calc(100vh - 90px);
+    }
+
+    .img-as img {
+
+    }
+
+    aside .asd-p,.dp-none {
+        display: none;
+    }
 }
