@@ -10,37 +10,67 @@
     clear: both;
 }
 
-.white {
-    color: white;
+
+.lt-gry {
+    color: lightgray;
 }
 
+
+
 aside {
-    width: 250px;
+    width: 200px;
     height: calc(100vh - 100px);
-    background-color: black;
+    padding: 0 20px;
+    line-height: 2.0;
+    background-image: linear-gradient(to right, black 0%, #434343 100%);
     float: left;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     height: 90px;
     background-color: yellow;
     float: left;
 }
 
 main {
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     height: calc(100vh - 90px);
     background-color: blue;
     float: left;
+    overflow-y: auto;:
 }
 
 .player {
     height: 100px;
     width: 100%;
     background-color: red;
-    float: left;
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.img-as {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.img-as img {
+    height: 50px;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+aside i,p:hover {
+    color: white;
+    cursor: pointer;
+}
+.fx {
+    display: flex;
+    align-items: baseline;
 }
