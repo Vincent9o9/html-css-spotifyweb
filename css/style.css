@@ -251,7 +251,6 @@ li a {
     background-color: white;
     border-radius: 2px;
     align-self: center;
-    flex: 0 1 400px;
 }
 
 .progress-sml {
@@ -267,15 +266,6 @@ li a {
 .fa-item {
     margin-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* MEDIA QUERY  */
@@ -305,7 +295,11 @@ li a {
 }
 
 @media screen and (max-width: 899px) {
-    .itm-plr .fa-item,.prg {
+    /* .itm-plr .fa-item,.prg {
         display: none;
+    } */
+
+    .progress {
+        width: 100px;
     }
 }
