@@ -208,8 +208,11 @@ li a {
 
 .player .ctr {
     flex: 1 1;
-    /* align-items: center;
-    display: flex; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .player .dx {
@@ -244,6 +247,7 @@ li a {
 
 .progress {
     height: 5px;
+    width: 400px;
     background-color: white;
     border-radius: 2px;
     align-self: center;
@@ -259,6 +263,8 @@ li a {
     align-self: center;
 
 }
+
+
 
 
 
