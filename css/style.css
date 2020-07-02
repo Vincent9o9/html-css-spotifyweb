@@ -130,7 +130,7 @@ button {
 }
 
 .btg-upgrade:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 /* MAIN */
@@ -208,13 +208,21 @@ li a {
 
 .player .ctr {
     flex: 1 1;
+    /* align-items: center;
+    display: flex; */
 }
 
 .player .dx {
     flex: 0 0 200px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
+}
+
+.player .fa {
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
 }
 
 .abm-plr img {
@@ -225,18 +233,33 @@ li a {
     font-size: 12px;
 }
 
+.player p {
+    margin: 0 10px;
+    color: white;
+}
+
 .prg {
     display: flex;
-    align-items: flex-start;
 }
 
 .progress {
     height: 5px;
     background-color: white;
     border-radius: 2px;
-    margin: 5px 20px;
-    flex: 1 1 200px;
+    align-self: center;
+    flex: 0 1 400px;
 }
+
+.progress-sml {
+    height: 5px;
+    width: 80px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 2px;
+    align-self: center;
+
+}
+
 
 
 
