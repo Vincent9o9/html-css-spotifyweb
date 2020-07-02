@@ -207,10 +207,7 @@ li a {
 }
 
 .player .ctr {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 1 1;
 }
 
 .player .dx {
@@ -226,6 +223,19 @@ li a {
 
 .txt-plr p {
     font-size: 12px;
+}
+
+.prg {
+    display: flex;
+    align-items: flex-start;
+}
+
+.progress {
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 5px 20px;
+    flex: 1 1 200px;
 }
 
 
