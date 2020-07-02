@@ -264,6 +264,9 @@ li a {
 
 }
 
+.fa-item {
+    margin-bottom: 25px;
+}
 
 
 
@@ -297,6 +300,12 @@ li a {
     }
 
     aside .asd-p,.dp-none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .itm-plr .fa-item,.prg {
         display: none;
     }
 }
