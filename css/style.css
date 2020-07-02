@@ -23,7 +23,7 @@ aside {
     height: calc(100vh - 100px);
     padding: 0 20px;
     line-height: 2.0;
-    background-image: linear-gradient(to right, black 0%, #434343 100%);
+    background-color: #040404;
     float: left;
     display: flex;
     flex-direction: column;
@@ -32,14 +32,14 @@ aside {
 header {
     width: calc(100% - 200px);
     height: 90px;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: #090909;
     float: left;
 }
 
 main {
     width: calc(100% - 200px);
     height: calc(100vh - 190px);
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    background-color: #121212;
     float: left;
     overflow-y: auto;
 }
@@ -47,7 +47,7 @@ main {
 .player {
     height: 100px;
     width: 100%;
-    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    background-color: #39464e;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -119,7 +119,7 @@ button {
     border: 1px solid white;
     border-radius: 20px;
     color: white;
-    background-image:linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: #090909;
 
 }
 
@@ -159,10 +159,32 @@ li a {
     line-height: 1.8;
 }
 
-.img-abm img {
-    height: 230px;
-    width: auto;
+.img-abm .fix-img {
+    height: 200px;
+    width: 200px;
     margin-left: 25px;
+    position: relative;
+}
+
+.fix-img img {
+    height: 100%;
+}
+
+.fix-img i {
+    font-size: 50px;
+    color: lightgray;
+}
+
+.abm-top span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(75px, 75px);
+    display: none;
+}
+
+.img-abm:hover span {
+    display: block;
 }
 
 
